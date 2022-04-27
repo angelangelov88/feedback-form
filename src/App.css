@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+.content .title {
+  /* width: 137px; */
+  /* height: 24px; */
+  /* left: 101px; */
+  /* top: 41px; */
+  margin: 2rem 0 0 0;
+  /* body-text-large-bold */
+
+  /* font-family: 'Titillium Web'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* display: flex; */
+  /* align-items: center; */
+
+  /* text-01 */
+
+  color: #161616;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content p {
+  display: flex;
+  justify-content: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thumbs-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+
+}
+.thumbs {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.thumbs:first-child {
+  margin-right: 50px;
+}
+
+.thumbs p {
+  margin: 0 0 0 10px;
+}
+
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+/* font-family: 'Titillium Web'; */
+/* font-style: normal; */
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* display: flex;
+align-items: center; */
+
+/* text-02 */
+
+color: #525252;
+}
+
+
+form textarea {
+  padding: 10px;
+  font-size: 12px;
+  margin: 0 auto 10px;
+  width: 184px;
+  height: 174px;
+  background: #F4F4F4;
+  border: none;
+  resize: none;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 205px;
+
+}
+
+.btn {
   color: white;
+  background-color: #0069D9;
+  padding: 3px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: #024a96;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form #skip {
+  padding: 3px 12px;
+  cursor: pointer;
+  color: #161616;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+form #skip:hover {
+  background-color: #F4F4F4;
+}
+
+
+.results {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.results h3 {
+  margin: 30px;
+}
+
+.results-preview {
+  line-height: 0;
+  margin: 30px;
+
+}
+
+.results-preview .btn {
+  margin-right: 10px;
+}
+
+
+.updateForm {
+  padding: 10px;
+  margin-top: 50px;  
+  position: fixed;
+  top: 30%;
+  right: 10px;
+  border: 5px #0069D9 solid;
+  border-radius: 5px;
+  background-color: white;
 }

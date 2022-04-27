@@ -1,0 +1,19 @@
+{
+  "feedback": [
+    {
+      "wasHelpful": true,
+      "comment": "happy 1",
+      "id": 1
+    },
+    {
+      "wasHelpful": false,
+      "comment": "unhappy 2",
+      "id": 2
+    },
+    {
+      "wasHelpful": false,
+      "comment": "unhappy 3",
+      "id": 3
+    }
+  ]
+}
